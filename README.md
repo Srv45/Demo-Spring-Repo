@@ -26,12 +26,12 @@ This project demonstrates the use of **Spring Framework** to configure and manag
 src/
 ├── main/
 │   ├── java/
-│   │   └── com.entity/
-│   │       ├── model/
-│   │       │   ├── Company.java  # Represents a company
-│   │       │   └── Employee.java # Represents an employee
-│   │       └── MainClass.java      # Entry point of the application
+│   │   └── com/
+│   │       ├── entity/
+│   │       │   ├── Company.java        // Represents a company entity
+│   │       │   └── Employee.java       // Represents an employee entity
+│   │       └── main/
+│   │           └── MainClass.java      // Entry point of the application
 │   └── resources/
-│       └── springbeans.xml     # Spring XML configuration file
-└── test/                         # Unit tests (if any)
+│       └── springbeans.xml             // Spring XML configuration file
 
